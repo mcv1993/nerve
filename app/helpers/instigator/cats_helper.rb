@@ -1,0 +1,2 @@
+module Instigator::CatsHelper
+end

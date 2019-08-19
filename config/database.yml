@@ -49,6 +49,6 @@ test:
 #
 production:
   <<: *default
-  database: nerve_production
+  database: <%= ENV['CLEARDB_DATABASE_URL'] %>
   username: nerve
   password: <%= ENV['NERVE_DATABASE_PASSWORD'] %>
